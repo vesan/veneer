@@ -5,8 +5,8 @@ gemspec
 
 gem 'rake'
 gem 'shoulda'
-gem 'activerecord'
-gem 'mongo_mapper'
+gem 'activerecord', '>= 3.2.14'
+gem 'mongo_mapper', '>= 0.8.6'
 gem 'dm-core'
 gem 'dm-migrations'
 gem 'dm-validations'

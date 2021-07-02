@@ -5,7 +5,7 @@ gemspec
 
 gem 'rake'
 gem 'shoulda'
-gem 'activerecord'
+gem 'activerecord', '>= 4.0.0'
 gem 'mongo_mapper'
 gem 'dm-core'
 gem 'dm-migrations'
